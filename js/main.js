@@ -54,7 +54,7 @@ gsap
   .to(
     "section",
     {
-      opacity: 0.5,
+      opacity: 0.7,
       duration: 1,
     },
     4.5,

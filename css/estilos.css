@@ -97,7 +97,7 @@ body {
 }
 
 .header {
-  min-height: 600px;
+  height: 100vh;
   background-image:
     radial-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.9)),
     url("../img/im1.jpg");
@@ -128,7 +128,7 @@ body {
   font-weight: 200;
   color: var(--white);
   text-align: center;
-  padding-top: 25rem;
+  padding-top: 10rem;
   position: fixed;
   /* font-family: var(--header-font); */
 }
