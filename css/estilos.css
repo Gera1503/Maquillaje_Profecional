@@ -201,7 +201,8 @@ section {
 }
 
 .about_container {
-  margin-top: 2rem;
+  height: 100%;
+  width: 100%;
 }
 
 .about_container .section_description {

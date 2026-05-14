@@ -106,5 +106,5 @@ ScrollReveal().reveal(".about_container .section_description", {
 
 ScrollReveal().reveal(".about_container .img", {
   ...scrollRevealOption,
-  delay: 1500,
+  delay: 1000,
 });
