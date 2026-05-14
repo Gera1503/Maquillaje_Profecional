@@ -28,14 +28,14 @@
 }
 
 .mesaje {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 200;
   perspective: 800px;
 }
 
 @media (max-width: 580px) {
   .mesaje {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -128,7 +128,6 @@ body {
   font-weight: 200;
   color: var(--white);
   text-align: center;
-  padding-top: 10rem;
   position: fixed;
   /* font-family: var(--header-font); */
 }
