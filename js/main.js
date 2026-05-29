@@ -54,7 +54,7 @@ gsap
   .to(
     "section",
     {
-      opacity: 0.7,
+      opacity: 0.9,
       duration: 1,
     },
     4.5,
@@ -107,4 +107,32 @@ ScrollReveal().reveal(".about_container .section_description", {
 ScrollReveal().reveal(".about_container .img", {
   ...scrollRevealOption,
   delay: 1000,
+});
+
+ScrollReveal().reveal(".portafolio_card", {
+  duration: 1000,
+  delay: 1000,
+  interval: 500,
+});
+
+ScrollReveal().reveal(".service_container .section_header", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal(".service_container .section_description", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal(".service_card", {
+  duration: 1000,
+  delay: 1000,
+  interval: 500,
+});
+
+const swiper = new Swiper(".swiper", {
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+  },
 });
