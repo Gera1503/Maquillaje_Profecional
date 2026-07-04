@@ -147,6 +147,7 @@ document
     const fecha = document.getElementById("fecha").value;
     const hora = document.getElementById("hora").value;
     const servicio = document.getElementById("servicio").value;
+    const domicilio = document.getElementById("domicilio").value;
 
     // 2. Tu número de teléfono (debe incluir el código de país, sin el símbolo +)
     // Ejemplo para México: 52 seguido de los 10 dígitos (525512345678)
@@ -154,12 +155,13 @@ document
 
     // 3. Crear el mensaje
     const mensaje =
-      `¡Hola! Me gustaría hacer una reserva en Bendita Vendimia.%0A%0A` +
+      `¡Hola! Me gustaría hacer una reservar un servicio de maquillaje.%0A%0A` +
       `*Nombre:* ${nombre}%0A` +
       `*Fecha:* ${fecha}%0A` +
       `*Hora:* ${hora}%0A` +
+      `*Domicilio:* ${domicilio}%0A` +
       `*Servicio:* ${servicio}%0A%0A` +
-      `¿Tienen disponibilidad?`;
+      `¿Tienenes disponibilidad?`;
 
     // 4. Crear la URL de WhatsApp y redirigir al usuario
     const urlWhatsApp = `https://wa.me/${telefonoRestaurante}?text=${mensaje}`;
