@@ -147,7 +147,6 @@ document
     const fecha = document.getElementById("fecha").value;
     const hora = document.getElementById("hora").value;
     const servicio = document.getElementById("servicio").value;
-    const direccion = document.getElementById("direccion").value;
 
     // 2. Tu número de teléfono (debe incluir el código de país, sin el símbolo +)
     // Ejemplo para México: 52 seguido de los 10 dígitos (525512345678)
@@ -159,7 +158,6 @@ document
       `*Nombre:* ${nombre}%0A` +
       `*Fecha:* ${fecha}%0A` +
       `*Hora:* ${hora}%0A` +
-      `*Direccion:* ${direccion}%0A` +
       `*Servicio:* ${servicio}%0A%0A` +
       `¿Tienenes disponibilidad?`;
 
