@@ -33,14 +33,14 @@
         <ul class="nav_links">
           <li><a href="#home">Inicio</a></li>
           <li><a href="#about">Acerca de</a></li>
-          <li><a href="#trabajo">Mi trabajo</a></li>
+          <li><a href="#trabajo">MAquillajes</a></li>
           <li class="nav_logo">
             <a href="#">
               <img  src="img/logo-4.png" alt="Logo de Maquillaje Profesional" />
             </a>
           </li>
-          <li><a href="#service">Mis servicios</a></li>
-          <li><a href="#clientes">Mis clientes</a></li>
+          <li><a href="#service">Servicios</a></li>
+          <li><a href="#clientes">Clientes</a></li>
           <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
@@ -59,38 +59,38 @@
         haga sentir cómoda y auténtica. Porque cuando te sientes bien con tu
         imagen, tu actitud se transforma.
       </p>
-      <p class="section_description">
+      <!-- <p class="section_description">
         Mi compromiso es brindarte un servicio de maquillaje profesional que
         resalte tu belleza natural y te haga sentir segura en cada ocasión
         especial. Ya sea para una boda, un evento importante o simplemente para
         consentirte, estoy aquí para ayudarte a lucir y sentirte increíble.
-      </p>
+      </p> -->
 
       <img class="img" src="img/logo-4N.png" alt="logo" />
     </div>
 
     <div class="section_container portafolio_container" id="trabajo">
-      <h2 class="section_header">~Mi Trabajo~</h2>
+      <h2 class="section_header">~Maquillajes</h2>
       <div class="portafolio_grid">
         
         <div class="portafolio_card">
           <img src="img/im7.jpeg" alt="portafolio" />
           <div class="portafolio_content">
-            <a href="#"><button class="btn">Ver mas</button></a>
+            <a href="#"><button class="btn">Detalles</button></a>
         </div>
         </div>
 
           <div class="portafolio_card">
           <img src="img/im8.jpeg" alt="portafolio" />
           <div class="portafolio_content">
-            <a href="#"><button class="btn">Ver mas</button></a>
+            <a href="#"><button class="btn">Detalles</button></a>
           </div>
         </div>
 
         <div class="portafolio_card">
           <img src="img/im10.jpeg" alt="portafolio" />
           <div class="portafolio_content">
-            <a href="#"><button class="btn">Ver mas</button></a>
+            <a href="#"><button class="btn">Detalles</button></a>
           </div>
         </div>  
         </div>
@@ -131,7 +131,7 @@
     </div>
 
     <div class="section_container client_container"  id="clientes">
-      <h2 class="section_header">~Mis Clientes~</h2>
+      <h2 class="section_header">~Clientes~</h2>
               <!-- Slider main container -->
         <div class="swiper">
           <!-- Additional required wrapper -->
@@ -176,6 +176,43 @@
           <div class="swiper-pagination"></div>
         </div>
     </div>
+
+    <!-- <div class="blog" id="blog">
+      <div class="section_container blog_container">
+        <div class="blog_content">
+          <h2 class="section_header">~Blog~</h2>
+          <h4>Recrea tu belleza</h4>
+          <p>
+            En nuestro blog, compartimos consejos de belleza, tendencias de maquillaje, tutoriales paso a paso y todo lo relacionado con el mundo del maquillaje profesional. ¡Mantente al día con las últimas novedades y descubre cómo resaltar tu belleza única con nuestros consejos expertos!
+          </p>
+          <div class="blog_btn">
+            <button class="btn">Leer más</button>
+          </div>
+        </div>
+      </div>
+    </div>
+     -->
+
+    <div id="reservar" class="reserva-section">
+        <h2>Haz tu reserva</h2>
+        <form id="formReserva">
+          <label for="nombre">Nombre completo:</label>
+          <input type="text" id="nombre" required />
+
+          <label for="fecha">Fecha:</label>
+          <input type="date" id="fecha" required />
+
+          <label for="hora">Hora:</label>
+          <input type="time" id="hora" required />
+
+          <label for="servicio">Tipo de maquillaje:</label> 
+          <input type="text" id="servicio" required />
+
+          <button type="submit">Reservar por WhatsApp</button>
+        </form>
+      </div>
+
+      
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
