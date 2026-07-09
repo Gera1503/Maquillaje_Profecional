@@ -124,10 +124,35 @@ body {
   justify-content: center;
   align-items: center;
 }
+.btn-reserva {
+  position: absolute;
+  bottom: 7rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.btn-res {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  font-weight: 100;
+  font-family: var(--header-font);
+  background-color: var(--text-dart);
+  box-shadow: beige 0px 0px 10px;
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-res:hover {
+  background-color: var(--primary-color);
+  color: var(--text-dart);
+  transform: translateY(-1px);
+}
 
 .header_title {
   font-size: 3rem;
   font-weight: 250;
+  text-shadow: beige 0px 0px 10px;
   color: var(--white);
   text-align: center;
   /* position: fixed; */
@@ -462,7 +487,7 @@ section {
 
 @media (min-width: 768px) {
   .header {
-    min-height: 650vh;
+    min-height: 100vh;
   }
   .header_title {
     font-size: 4rem;
